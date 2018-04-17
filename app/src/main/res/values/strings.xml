@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Kononowicz_Soundboard</string>
     <string name="main_label">Konon and Major Soundboard</string>
+
+    <string-array name="soundNames">
+        <item>Nibembenie niżerłoku</item>
+        <item>Mecenasku</item>
+        <item>Smalczyk</item>
+    </string-array>
 </resources>

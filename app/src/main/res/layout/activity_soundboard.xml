@@ -6,9 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="amadeuszbubniak.kononowicz_soundboard.SoundboardActivity"
-    android:background="@color/gray"
+    android:background="@drawable/background"
     android:id="@+id/activity_soundboard">
-//i need some konon photo to add as background here just in background @drawable/konon.jpg
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/soundbar_toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/soundboardRecyclerView"
+        android:layout_below="@id/soundbar_toolbar"/>
+
+    //i need some konon photo to add as background here just in background @drawable/konon.jpg
 
 
 </RelativeLayout>
